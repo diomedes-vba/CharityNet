@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CharityNet.Domain.Models
 {
-    public class CharityCampaign : DomainObject
+    public class DomainObject
     {
-        public int MoneyCollected { get; set; }
+        public int Id { get; set; }
     }
 }

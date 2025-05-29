@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CharityNet.Infrastructure.Migrations
 {
     [DbContext(typeof(CharityNetDbContext))]
-    [Migration("20250529144930_dates-and-password-added")]
-    partial class datesandpasswordadded
+    [Migration("20250529151432_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

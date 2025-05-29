@@ -14,12 +14,7 @@ namespace CharityNet.Infrastructure
         public DbSet<Donation> Donations { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<CharityCampaign> CharityCampaigns { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=TELEMACHUS;Database=CharityNetDb;TrustServerCertificate=True;Trusted_Connection=True");
-
-            base.OnConfiguring(optionsBuilder);
-        }
+        
+        public CharityNetDbContext(DbContextOptions<CharityNetDbContext> options) : base(options) { }
     }
 }
