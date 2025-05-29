@@ -12,5 +12,6 @@ namespace CharityNet.Domain.Models
         public Account Account { get; set; }
         public CharityCampaign Campaign { get; set; }
         public int Amount { get; set; }
+        public DateTime DateProcessed { get; set; }
     }
 }
