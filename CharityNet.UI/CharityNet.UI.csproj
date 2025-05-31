@@ -13,8 +13,4 @@
     <ProjectReference Include="..\CharityNet.Infrastructure\CharityNet.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\" />
-  </ItemGroup>
-
 </Project>
