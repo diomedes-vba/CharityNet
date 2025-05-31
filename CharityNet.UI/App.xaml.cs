@@ -1,4 +1,5 @@
-﻿using System.Configuration;
+﻿using CharityNet.UI.ViewModels;
+using System.Configuration;
 using System.Data;
 using System.Windows;
 
@@ -12,6 +13,7 @@ namespace CharityNet.UI
         protected override void OnStartup(StartupEventArgs e)
         {
             Window window = new MainWindow();
+            window.DataContext = new MainViewModel();
             window.Show();
             
             base.OnStartup(e);

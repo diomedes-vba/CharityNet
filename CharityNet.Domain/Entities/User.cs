@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CharityNet.Domain.Models
+namespace CharityNet.Domain.Entities
 {
     public class User : DomainObject
     {

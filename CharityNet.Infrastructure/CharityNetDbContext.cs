@@ -1,4 +1,4 @@
-﻿using CharityNet.Domain.Models;
+﻿using CharityNet.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
